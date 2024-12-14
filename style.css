@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 20px;
+    max-width: 1015px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.logo img{
+    width: 268px;
+    height: 33px;
+
+    
+}
+li {
+    display:inline-block;
+ 
+
+}
+li a{
+    text-decoration: none;
+    color:#00b39b;
+  
+}
+.logos{
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    padding: 40px 0px 0px 0px;
+
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+   color: #00b39b;; 
+   margin: 34px 0px;
+   font-size: 2.125rem;
+   letter-spacing: -.3px;
+   font-family: "Work Sans", Arial, sans-serif;
+   font-weight: 300;
+}
+h1{
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .3em 0;
+    letter-spacing: -.3px;
+    color: #fff;
+    text-shadow: none; 
+    text-align: start;
+}
+.nav1{
+    margin: 33px 0px 60px;
+}
+.parent{
+   
+ padding: 0px 400px;
+ display: flex;
+
+
+ 
+    ;}
+    .item1{
+
+margin: .8em 0;
+line-height: 1.75;
+font-weight: 400;
+font-family: Roboto, Arial, sans-serif;
+color: #747474;
+font-size: 16px;
+
+
+        
+    
+    }
+    .item2{
+        margin: .8em 0;
+        line-height: 1.75;
+        font-weight: 400;
+        font-family: Roboto, Arial, sans-serif;
+        color: #747474;
+        font-size: 16px;
+    }
+.choose {
+    margin: 50px 170px;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+}
+.choose div{
+    background-color: #00b39b;
+    display: flex;
+    flex-flow: column;
+  padding: 30px;
+}
+select {
+    background-color: #00b39b;
+
+}
+.patient{
+    width: 40px;
+    height: 40px;
+}
+
+.child1{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    letter-spacing: -.3px;
+    color: #fff;
+    text-shadow: none;
+    padding:0px ;
+}
+.doctor{
+    width: 40px;
+    height: 40px;
+}
+.child2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    letter-spacing: -.3px;
+    color: #fff;
+    text-shadow: none;
+}
+.clinic{
+   width: 40px;
+   height: 40px;
+}
+.child3{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    letter-spacing: -.3px;
+    color: #fff;
+    text-shadow: none;
+}
+select{
+ 
+    border: 0 ;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: start;
+
+}
+
+.para{
+  
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+color: #00b39b;
+font-size: 1.625em;
+font-weight: 300;
+letter-spacing: -.3px;
+}
+.images img{
+background-color: #00b39b;
+display: grid;
+
+}
+.img{
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+
+ul li {
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 10px 15px;
+  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+.world{
+    padding: 20px;
+    margin: 20px;
+
+  display: grid;
+
+grid-template-columns: repeat(3,1fr);
+ 
+}
+
+.num1{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 30px;
+    grid-area:1/1/3/3;
+    text-align:center ;
+    
+
+}
+.num2{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;  
+    width:200px ;
+    margin: 10px;
+grid-area:1/3/2/4 ;
+}
+.num3{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;  
+    width:200px ;
+    margin: 10px;
+ grid-area: 2/3/3/4;
+
+}
+.num4{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;  
+    width:200px ;
+    margin: 10px;
+   grid-area:1/4/2/5 ;
+ 
+ 
+}
+.num5{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;  
+    width:200px ;
+    margin: 10px;
+    grid-area:2/4/3/4 ;
+
+}
+
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+padding:10px 500px ;
+margin:1oopx 200px ;
+  
+}
+
+
+h1{
+    text-align: start;
+}
+.container{
+    justify-content: space-between;
+}
+.dot{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: cursive;
+    text-shadow: #797272;
+ }
+
+
+
